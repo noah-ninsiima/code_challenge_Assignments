@@ -22,6 +22,3 @@ function fizzBuzz(stringOne, stringTwo){
 
     let result = fizzBuzz('Noah', 'Ninsiimaaaa');
     console.log(result)
-
-// 
-//
