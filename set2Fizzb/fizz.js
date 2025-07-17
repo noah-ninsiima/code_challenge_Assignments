@@ -8,10 +8,10 @@ function fizzBuzz(stringOne, stringTwo){
         if(combinedStringLength % 3 === 0 && combinedStringLength % 5 === 0){
             return "FizzBuzz";
         }
-        else if(combinedStringLength % 3 === 0 && combinedStringLength % 5 !== 0){
+        else if(combinedStringLength % 3 === 0 ){
             return "Fizz";
         }
-        else if(combinedStringLength % 5 === 0 && combinedStringLength % 3 !== 0){
+        else if(combinedStringLength % 5 === 0 ){
             return "Buzz";
         }
         else{
@@ -20,7 +20,8 @@ function fizzBuzz(stringOne, stringTwo){
     }
 }
 
-    fizzBuzz(10, 11);
+    let result = fizzBuzz('Noah', 'Ninsiimaaaa');
+    console.log(result)
 
 // 
 //
